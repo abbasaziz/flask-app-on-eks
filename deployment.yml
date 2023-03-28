@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-flask-deployment
   labels:
-    app: simple-flask
+    app: simple-flask-app
 spec:
   replicas: 3
   selector:
