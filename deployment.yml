@@ -8,7 +8,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: simple-flask
+      app: simple-flask-app
   strategy:
     type: RollingUpdate
     rollingUpdate:
