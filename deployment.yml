@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: simple-flask
-          # image: IMAGE_TAG
+          # image to containerize: IMAGE_TAG
           image: abbasaziz/simple-flask
           securityContext:
             privileged: false
